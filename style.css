@@ -12,13 +12,21 @@
  }
 
  table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: left;
 
+    border-collapse: separate;
+    text-align: left;    
   }
 th:nth-child(even) {
     background-color: #eee;
     font-weight:normal;
     vertical-align: top;
+}
+
+table {
+    border: 1px solid rgb(200, 200, 200);
+    border-spacing: 1rem 1rem;
+}
+
+details p {
+    background-color: rgb(255, 246, 215);
 }
