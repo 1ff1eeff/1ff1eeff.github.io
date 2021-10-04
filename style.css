@@ -1,0 +1,24 @@
+#content {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ h1, h2, p, summary, ol, table {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ p, summary, ol, table { 
+    font-size: 14pt;
+ }
+
+ table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+
+  }
+th:nth-child(even) {
+    background-color: #eee;
+    font-weight:normal;
+    vertical-align: top;
+}
