@@ -32,6 +32,10 @@
  h1, h2, p, summary, ol, table {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
+
+ p, summary{
+    text-align: justify;
+ }
  
  table, th, td {   
     border-collapse: separate;
@@ -47,7 +51,6 @@ th:nth-child(even) {
 table {
     border: 1px solid rgb(200, 200, 200);
     border-spacing: 1rem 1rem;
-
 }
 
 details p, details li {
