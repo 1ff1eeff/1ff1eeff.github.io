@@ -56,7 +56,11 @@ details p, details li {
     background-color: rgb(255, 246, 215);
 }
 
+summary::marker{
+    content: "⇣ ";
+} 
 
+/*
 summary::-webkit-details-marker{display:none;}
 summary::-moz-list-bullet{list-style-type:none;}
 summary::marker{display:none;} 
@@ -81,4 +85,4 @@ summary:focus {
 details{
   display:block;
   margin-bottom: .5rem;
-}
+}*/
