@@ -50,6 +50,7 @@ th:nth-child(even) {
 table {
     border: 1px solid rgb(200, 200, 200);
     border-spacing: 1rem 1rem;
+
 }
 
 details p, details li {
@@ -57,9 +58,16 @@ details p, details li {
 }
 
 summary::marker{
-    content: "⇣ ";
+    content: "| ";
+    color:rgb(200, 200, 200);
 } 
-
+details[open] > summary::marker {
+    content: "⇣  ";
+  }
+summary:focus {
+  outline:0;
+  box-shadow: inset 0 0 1px rgb(200, 200, 200), inset 0 0 2px rgb(200, 200, 200);
+}
 /*
 summary::-webkit-details-marker{display:none;}
 summary::-moz-list-bullet{list-style-type:none;}
