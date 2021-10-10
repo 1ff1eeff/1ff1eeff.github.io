@@ -37,6 +37,14 @@
     text-align: justify;
  }
  
+ #quote{
+     text-align: right;
+ }
+
+ #quote_text{
+     text-align: justify;
+ }
+
  table, th, td {   
     border-collapse: separate;
     text-align: left;   
