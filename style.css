@@ -28,7 +28,7 @@
   }
   
 
- h1, h2, p, summary, ol, table {
+ h1, h2, p, summary, ol, table, a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
 
@@ -74,4 +74,17 @@ details[open] > summary::marker {
 summary:focus {
   outline:0;
   box-shadow: inset 0 0 1px rgb(200, 200, 200), inset 0 0 2px rgb(200, 200, 200);
+}
+
+
+.footer-left {
+  padding-top: 1em;
+  width:50%; 
+  float: left;
+}
+.footer-right {
+  padding-top: 1em;
+  width:50%; 
+  float:right;
+  text-align: right;
 }
