@@ -64,6 +64,10 @@ details p, details li {
     background-color: rgb(255, 246, 215);
 }
 
+details summary {
+  text-align: left;
+}
+
 summary::marker{
     content: "| ";
     color:rgb(200, 200, 200);
