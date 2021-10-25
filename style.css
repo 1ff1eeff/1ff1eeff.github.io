@@ -66,7 +66,7 @@ details p, details li {
 }
 
 details summary {
-  text-align: left;
+  
 }
 
 summary::marker{
