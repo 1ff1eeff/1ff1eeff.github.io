@@ -1,38 +1,17 @@
-#content {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
- }
-
- @media screen and (min-width: 900px) {
-    #content {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;      
-     }
-
-  }
-  @media screen and (min-width: 1024px) {
-    #content {
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-     }
-  }
-  @media screen and (min-width: 1280px) {
-    #content {
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-     }
-  }
-  
+body {
+  margin-left: auto;
+  margin-right: auto;      
+}
+@media screen and (max-width: 899px)  {body {width: 90%;}}
+@media screen and (min-width: 900px)  {body {width: 80%;}}
+@media screen and (min-width: 1024px) {body {width: 70%;}}
+@media screen and (min-width: 1280px) {body {width: 60%;}}
+@media screen and (min-width: 1680px) {body {width: 50%;}}
 
  h1, h2, p, summary, ol, table, a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
 
- 
  p, summary{
     text-align: justify;
  }
@@ -63,10 +42,6 @@ table {
 
 details p, details li {
     background-color: rgb(255, 246, 215);
-}
-
-details summary {
-  
 }
 
 summary::marker{
