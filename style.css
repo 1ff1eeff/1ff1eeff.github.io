@@ -92,3 +92,16 @@ summary:focus {
   float:right;
   text-align: right;
 }
+
+header {
+  text-align: center;
+}
+
+ ul.menu{
+  list-style: none;
+ }
+
+ ul.menu li {
+  display: inline; 
+  padding-right: 3em;
+ }
