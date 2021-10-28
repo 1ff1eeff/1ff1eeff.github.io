@@ -8,7 +8,7 @@ body {
 @media screen and (min-width: 1280px) {body {width: 60%;}}
 @media screen and (min-width: 1680px) {body {width: 50%;}}
 
- h1, h2, p, summary, ol, table, a{
+ h1, h2, p, summary, ol, table, a, .thumbnail{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
 
@@ -73,7 +73,7 @@ header ul, footer ul{
     display: -moz-inline-box;
     display: inline-block;
     vertical-align: top;
-    margin: 3em 0 0 2em;
+    margin: 2em 0 0 0;
  }
 
  .thumbnail .r{
